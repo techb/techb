@@ -1,1 +1,1 @@
-![K.B.'s github stats](https://github-readme-stats.vercel.app/api?username=techb)
+[![K.B.'s github stats](https://github-readme-stats.vercel.app/api?username=techb)](https://kbcarte.com)
