@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
+    # This adds a "Run workflow" button to the GitHub UI
+    inputs:
+      reason:
+        description: 'Reason for manual run'
+        required: true
+        default: 'Manual trigger'
 
 jobs:
   build:
